@@ -34,7 +34,7 @@ function displayPics(){
       viewed.push(rando);
     }
   }
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `var to `let`.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `var to `let`.
   // it states that rando is not defined because its not global.let was in the function it is a local variable but since the console log is out side it is not seeing it.
   // PUT YOUR RESPONSE IN THIS COMMENT
   console.log(viewed)
